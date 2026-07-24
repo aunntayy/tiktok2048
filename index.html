@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>2048</h1>
+    <div id="top-bar">
+        <button id="menu-button">
+            <span class="material-icons">settings</span>
+        </button>
+    </div>
+    <div id="score">Score: 0</div>
+    <button id="restart">Restart</button>
+    <div id="board"></div>
+    <div id="game-message">
+        <h2 id="message-text"></h2>
+        <button id="continue-button">
+            Continue Playing
+        </button>
+
+        <button id="ad-continue">Watch Ad to Remove a Tile</button>
+        <button id="message-restart">Restart</button>
+    </div>
+    <div id="menu-overlay"></div>
+    <div id="pause-menu" style="display: none;">
+
+        <h2>Paused</h2>
+
+        <button id="resume-button">
+            Resume
+        </button>
+
+        <button id="pause-restart">
+            Restart
+        </button>
+
+        <button id="sound-button">
+            Sound: ON
+        </button>
+
+        <button id="theme-button">
+            Dark Mode: OFF
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
